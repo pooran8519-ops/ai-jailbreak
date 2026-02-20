@@ -1,0 +1,16 @@
+{
+  "name": "ai-jailbreak-api",
+  "version": "1.0.0",
+  "description": "AI API with jailbreak system prompt support",
+  "main": "api/chat.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "openai": "^4.24.0",
+    "cors": "^2.8.5"
+  },
+  "author": "@MS_HAC4KER",
+  "license": "MIT"
+}
